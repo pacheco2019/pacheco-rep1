@@ -1,0 +1,75 @@
+
+
+TIPOS DE ALGORITMOS.
+
+BINARY SEARCH:------------------------------------------------------- 
+busque una matriz ordenada dividiendo repetidamente el intervalo de búsqueda por la mitad.
+Comience con un intervalo que cubra toda la matriz. Si el valor de la clave de búsqueda es menor que el elemento en el medio del intervalo, reduzca el intervalo a la mitad inferior.
+De lo contrario reducirlo a la mitad superior. Verifique repetidamente hasta que se encuentre el valor o el intervalo esté vacío.
+
+QUICKSORT:--------------------------------------------------------------
+es un algoritmo basado en la técnica de divide y vencerás, que permite, en promedio, ordenar n elementos en un tiempo proporcional a n log n.
+Esta es la técnica de ordenamiento más rápida conocida. Fue desarrollada por C. Antony R. Hoare en 1960.
+El algoritmo original es recursivo, pero se utilizan versiones iterativas para mejorar su rendimiento (los algoritmos recursivos son en general más lentos que los iterativos, y consumen más recursos).
+
+BACKTRACKING:---------------------------------------------------------------
+(o busqueda atras) es una tecnica de programacion para hacer
+busqueda sistematica a traves de todas las configuraciones posibles dentro de un
+espacio de busqueda. Para lograr esto, los algoritmos de tipo backtracking construyen posibles soluciones candidatas de manera sistematica. En general, dado una soluci´on candidata.
+1. Verifican si s es solucion. Si lo es, hacen algo con ella (depende del problema).
+2. Construyen todas las posibles extensiones de s, e invocan recursivamente al
+algoritmo con todas ellas.
+
+HASH TABLE:-----------------------------------------------------------------
+Una tabla hash, matriz asociativa, hashing, mapa hash, tabla de dispersión o tabla fragmentada es una estructura de datos que asocia llaves o claves con valores.
+operación principal que soporta de manera eficiente es la búsqueda: permite el acceso a los elementos (teléfono y dirección, por ejemplo) almacenados a partir de una clave 
+generada (usando el nombre o número de cuenta, por ejemplo). Funciona transformando la clave con una función hash en un hash, un número que identifica la posición (casilla o 
+cubeta) donde la tabla hash localiza el valor deseado.
+
+LINEAL CONGRUENTIAL GENERATOR:----------------------------------------------
+Un generador lineal congruente ( LCG ) es un algoritmo que produce una secuencia de números pseudoaleatorios calculados con una ecuación lineal discontinua por partes .
+El método representa uno de los algoritmos de generación de números pseudoaleatorios más antiguos y conocidos.
+La teoría detrás de ellos es relativamente fácil de entender, y se implementan de manera fácil y rápida, 
+especialmente en hardware de computadora que puede proporcionar módulo aritmético mediante el truncamiento de bits de almacenamiento.
+
+LINEAR LEAST SQUARES:--------------------------------------------------------
+es la aproximación de mínimos cuadrados de las funciones lineales a los datos. Es un conjunto de formulaciones para resolver los problemas estadísticos involucrados en la regresión lineal ,
+que incluyen variantes para residuos ordinarios (no ponderados) , ponderados y generalizados (correlacionados).
+Los métodos numéricos para los mínimos cuadrados lineales incluyen la inversión de la matriz de las ecuaciones normales y los métodos de descomposición ortogonal.
+
+KARATSULON ALGORRITHIM:----------------------------------------------------------
+es un procedimiento para multiplicar números grandes eficientemente, que fue descubierto por Anatolii Alexeevitch Karatsuba en 1960 y publicado en 1962.
+El algoritmo consigue reducir la múltiplicación de dos números.
+
+DIVIDE AND COUNQUER:---------------------------------------------------------
+La técnica de diseño de algoritmos llamada "divide y vencerás" (divide and conquer) consiste en descomponer el problema original en varios sub-problemas más sencillos,
+para luego resolver éstos mediante un cálculo sencillo. Por último, se combinan los resultados de cada sub-problema para obtener la solución del problema original.
+
+DIGKSTRA'S ALGORITHIM:----------------------------------------------------------
+también llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista.
+Su nombre alude a Edsger Dijkstra, científico de la computación de los Países Bajos que lo describió por primera vez en 1959.
+
+KNUT MORRIS PRATT:----------------------------------------------------------------
+El algoritmo KMP es un algoritmo de búsqueda de subcadenas simple y por lo tanto su objetivo es buscar la existencia de una subcadena dentro de una cadena. 
+información basada en los fallos previos, aprovechando la información que la propia palabra a buscar contiene de sí (sobre ella se precalcula una tabla de valores),
+donde podría darse la siguiente existencia, sin necesidad de analizar más de 1 vez los caracteres de la cadena donde se busca.
+
+
+conclucion.
+los algoritmos son una manera de expresar o interpretar cualquier situacion de manera ordenada por medio de pasos.
+con estos algoritmos podemos solucionar problemas o bien identificar como hacerlos y solucionarlos.
+cada algoritmo tiene una funcion diferente la cual nos puede dar la ventaja para afrontar un problema y asi solucionarlo mediante las,
+herramientas mas utilizadas.
+
+
+
+
+
+
+
+
+
+
+
+
+	 
