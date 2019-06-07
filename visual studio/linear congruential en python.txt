@@ -1,0 +1,28 @@
+linear congruential en python
+
+def mixedMethod(x, a, c, mod): //define variables
+ 
+    periodo = 0 //iguala a 0
+    bandera = 0 //iguala a 0
+ 
+    while(bandera != x)://ciclo while
+        if (periodo == 0)://ciclo if
+            bandera = x
+        x = (a * x + c) % mod//operacion a ejecutar
+        print(x)//imprime variable
+        periodo = periodo + 1
+ 
+    if(periodo == mod)://funcion if
+        print("El periodo es completo: ", periodo)//imprime 
+    else:
+        print("El periodo es incompleto:", periodo)//imprime
+ 
+def main()://define cuerpo del programa
+    x = int(raw_input("Introduce el valor de la semilla: "))pide valor
+    a = int(raw_input("Introduce el valor del multiplicador: "))//pide valor
+    c = int(raw_input("Introduce el valor de la constante aditiva: "))//pide valor
+    m = int(raw_input("Introduce el valor del modulo: "))//pide valor
+    mixedMethod(x,a,c,m)
+ 
+if __name__ == "__main__":
+    main()

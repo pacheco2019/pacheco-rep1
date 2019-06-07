@@ -1,0 +1,59 @@
+ejemplo de linear congruential en c sharp.
+
+
+
+using System;
+using System.Collections.Generic;
+
+namespace FULLCYCLE
+{
+    public class RandomNumber
+    {
+        private int _value;
+        private int _prime;
+        private static List<int> primes = new List<int>()
+        {
+            11,
+            23,
+            47,
+            97,
+            797,
+            1597,
+            6421,
+            25717,
+            51437,
+            102877,
+            411527,
+            823117,
+            1646237,
+            3292489,
+            6584983,
+            13169977,
+            26339969,
+            52679969,
+            105359939,
+            210719881,
+            421439783,
+            842879579,
+            1685759167
+        };
+
+        public RandomNumber( int seed )
+        {
+            _prime = primes[seed%primes.Count];
+            _value = seed;
+        }
+
+        public int Next( int min, int max )
+        {
+            int maxrate = (max-min+1);
+            if (_value > maxrate)
+            {
+                _value = _value % maxrate;
+            }
+
+            _value = (_value + _prime) % maxrate;
+            return _value + min;
+        }
+    }
+}

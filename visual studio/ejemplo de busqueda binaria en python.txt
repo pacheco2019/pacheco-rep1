@@ -1,0 +1,22 @@
+ejemplo de busqueda binaria en python
+
+def busquedaBinaria(unaLista, item):// define la lista
+	    primero = 0
+	    ultimo = len(unaLista)-1
+	    encontrado = False
+	
+	    while primero<=ultimo and not encontrado://ciclo while
+	        puntoMedio = (primero + ultimo)//2
+	        if unaLista[puntoMedio] == item: //funcion if
+	            encontrado = True
+	        else: // funcion else
+	            if item < unaLista[puntoMedio]://funcion if
+	                ultimo = puntoMedio-1
+	            else://fincion else
+	                primero = puntoMedio+1
+	
+	    return encontrado 
+	
+	listaPrueba = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
+	print(busquedaBinaria(listaPrueba, 3))
+	print(busquedaBinaria(listaPrueba, 13))
